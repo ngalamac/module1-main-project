@@ -89,6 +89,13 @@ You can deploy this project using:
   netlify
   vercel
 ```
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://ngalamac.github.io/Module1-Capstone-Microverse/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
