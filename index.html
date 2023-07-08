@@ -1,165 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Capstone Project</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>module1 Capstone Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
- 
     <header>
-      <nav>
-        <div class="nav-socials">
-          <img src="./images/facebook.png" alt="">
-          <img src="./images/twitter.png" alt="">
-          <a href="#">English</a>
-          <a href="#">My page</a>
-          <a href="#">Logout</a>
+        <div class="flexlogo">
+        <div class="mobile-menu"><img src="./assets/images/mobile-menu.svg" alt="Hamburger mobile menu icon"></div>
+        <li><a href="#"><div class="logo"><img src="./assets/images/logimg.png" alt="logo image"></div>
+            <div class="color-overlay"></div>
+            </a></li>
         </div>
-        <div class="navbar">
-          <div class="navbar-logo">
-            <label>
-              <a href="./index.html">
-                ETS.NTECH
-              </a>
-            </label>
+        <nav>
+            <div class="top-nav">
+          <ul>
+            <li><a href="#"><img src="./assets/images/facebookicon.svg" alt="facebook icon"></a></li>
+            <li><a href="#"><img src="./assets/images/twitter.svg" alt="twitter icon"></a></li>
+            <li><a href="#">English</a></li>
+            <li><a href="#">My Page</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
           </div>
-          <div class="navbar-mobile-close">
-            <img src="./images/Icon-Cancel.svg" alt="">
-          </div>
-          <div class="navbar-menus">
+          <div class="bottom-nav">
+           
+            
             <ul>
-              <li>
-                <a href="./about.html">About</a>
-              </li>
-              <li>
-                <a href="#">Program</a>
-              </li>
-              <li>
-                <a href="#">Join</a>
-              </li>
-              <li>
-                <a href="#">Sponsor</a>
-              </li>
-              <li>
-                <a href="#">News</a>
-              </li>
-              <button type="button">Our Campaign</button>
+             
+              <li><a href="about.html">About</a></li>
+              <li><a href="#">Program</a></li>
+              <li><a href="#">Join</a></li>
+              <li><a href="#">Sponsor</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#"><button type="button">NTECH CAMPAIGN</button></a></li>
             </ul>
-          </div>
-          <div class="navbar-mobile-open">
-            <img src="./images/Icon - Menu.svg" alt="">
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-    <section class="home">
-      <div class="home-text">
-        <h2>"The IT World Needs You"</h2>
-        <h1>We Train, We Guide</h1>
-        <p class="home-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem enim obcaecati praesentium veniam nisi suscipit error, modi quisquam eaque fugit asperiores at itaque amet blanditiis mollitia pariatur?</p>
-        <div class="date-time">
-          <h3>2023.07.07(FRI) ~ 08(SAT)</h3>
-          <p>@ iHub, Biscuiterie obili Yaounde</p>
-        </div>
-      </div>
-    </section>
+            </div>
+        </nav>
 
-    <section class="main-programs">
-      <h2>Our Programs</h2>
-      <div class="program-cards">
-        <div class="program-card">
-          <div class="logo">
-            <img src="./images/react-2.svg" alt="react logo">
-          </div>
-          <div class="logo-title">
-            <h4>React</h4>
-          </div>
-          <div class="logo-description">
-            <p>React is a free JavaScript library for building user interfaces based on components.</p>
-          </div>
-        </div>
-        <div class="program-card">
-          <div class="logo">
-            <img src="./images/rails-1.svg" alt="react logo">
-          </div>
-          <div class="logo-title">
-            <h4>Ruby on Rails</h4>
-          </div>
-          <div class="logo-description">
-            <p>Rails is a framework that provides default structures for databases.</p>
-          </div>
-        </div>
-        <div class="program-card">
-          <div class="logo">
-            <img src="./images/devops-2 (1).svg" alt="react logo">
-          </div>
-          <div class="logo-title">
-            <h4>Devops</h4>
-          </div>
-          <div class="logo-description">
-            <p>DevOps improves and shortens the systems development life cycle.</p>
-          </div>
-        </div>
-        <div class="program-card">
-          <div class="logo">
-            <img src="./images/kotlin-1.svg" alt="react logo">
-          </div>
-          <div class="logo-title">
-            <h4>Kotlin</h4>
-          </div>
-          <div class="logo-description">
-            <p>Kotlin is a cross-platform high-level programming language with type inference.</p>
-          </div>
-        </div>
-        <div class="program-card">
-          <div class="logo">
-            <img src="./images/vue-9.svg" alt="react logo">
-          </div>
-          <div class="logo-title">
-            <h4>Vue.js</h4>
-          </div>
-          <div class="logo-description">
-            <p>Vue.js is a JavaScript framework for building user interfaces and single-page applications.</p>
-          </div>
-        </div>
-      </div>
-      <a href="#" class="mobile-card-button">Join Our Program</a>
-      <a href="#" class="desktop-card-button">See Our Whole Program</a>
-    </section>
+        
+      </header>
+    
+      <main>
+        <section>
+            <div class="home">
+                <div class="intro-para">
+                    <h2>ETS.NTECH OBILI YAOUNDE</h2>
+                </div>
+                <div class="theme">
+<h1>BRINGING OUT PRACTICAL REALITIES OF INFORMATION TECHNOLOGY</h1>
+                </div>
+                <div class="para">
+                <p>We bring out the practical realities of information technology
+                    Er bring out the practical realities of information technology
+                    Er bring out the practical realities of information technology
+                   
+                </p>
+                </div>
+                <div class="date">
+<h3>2023.07.10(MON) ~ 14(TUE)</h3>
+                </div>
+                <div class="botpara"><p>Beside Vatican Travel Agency Yaounde</p></div>
+            </div>
+        
+        </section>
+        <section class="firstcard">
+            <div class="heading">
+                <h2>Main Program</h2>
+                 <p></p></div>
+<div class="cards">
+<div class="card">
+    <div class="carditems">
+    <div class="cardimg"><span><img src="./assets/images/devops.svg" alt="devops icon"></span></div>
+    <div class="title">
+        <h3> Devops</h3></div>
+    <div class="description">
+        <p>
+            Discover the latest advancements and trends in technology-driven tutorin
+        </p>
+    </div>
+</div>
+</div>
+<div class="card">
+    <div class="carditems">
+    <div class="cardimg"><img src="./assets/images/kotlin.svg" alt="icon"></div>
+    <div class="title">
+        <h3> Kotlin</h3></div>
+    <div class="description">
+        <p>
+            Discover the latest advancements and trends in technology-driven tutorin
+        </p>
+    </div>
+</div>
+</div>
+<div class="card">
+    <div class="carditems">
+    <div class="cardimg"><img src="./assets/images/vuejs.svg" alt="icon"></div>
+    <div class="title">
+        <h3> Vuejs</h3></div>
+    <div class="description">
+        <p>
+            Discover the latest advancements and trends in technology-driven tutorin
+        </p>
+    </div>
+</div>
+</div>
+<div class="card">
+    <div class="carditems">
+    <div class="cardimg"><img src="./assets/images/reactjs.svg" alt="icon"></div>
+    <div class="title">
+        <h3> ReactJs</h3></div>
+    <div class="description">
+        <p>
+            Discover the latest advancements and trends in technology-driven tutorin
+        </p>
+    </div>
+</div>
+</div>
+<div class="card">
+    <div class="carditems">
+    <div class="cardimg"><span><img src="./assets/images/rubyonrails.svg" alt="icon"></span></div>
+    <div class="title">
+        <h3> Ruby on Rails</h3></div>
+    <div class="description">
+        <p>
+            Discover the latest advancements and trends in technology-driven tutorin
+        </p>
+    </div>
+</div>
+</div>
 
-    <section class="speakers">
-      <h2>Featured Speakers</h2>
-      <div id="speaker-cards"></div>
-      <button type="button" class="see-more-cards">See more <span><i class="fa-solid fa-angle-down"></i></span></button>
-      <button type="button" class="see-less-cards">See less <span><i class="fa-solid fa-angle-up"></i></span></button>
-    </section>
+</div>
 
-    <section class="partners">
-      <h2>Partners</h2>
-      <div class="partner-logos">
-        <img src="./images/mozilla.svg" alt="">
-        <img src="./images/google-1-1.svg" alt="">
-        <img src="./images/daumkakao.svg" alt="">
-        <img src="./images/microsoft.svg" alt="">
-        <img src="./images/oracle-6.svg" alt="">
-      </div>
-    </section>
-  </main>
-    <footer>
-      <div class="footer-title">
-        <h2>ETS.NTECH</h2>
-      </div>
-      <div class="footer-description">
-          <h4>2023 ETS.NTECH Yaounde. Some Rights Reserved.</h4>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus deleniti recusandae tenetur laborum, iusto maiores quidem quae accusamus placeat veniam laboriosam deserunt qui nemo?</p>
-      </div>
+<div class="more">
+    <a href="#"><p>CLICK TO SEE MORE</p></a>
+</div>
+            </div>
+        </section>
+    
+        <section>
+          <div class="speakers">
+            <div class="more">
+                <span><p>Our Personnel</p></span>
+            </div>
+            <div class="underline"><p></p></div>
+            <div class="actors">
+            <div class="actorcard">
+                <div class="actorpic">
+                    <img src="./assets/images/actor9.jpg" alt="Actor's pic">
+                </div>
+                <div class="carddetails">
+                <div class = "name"><h3> Ngala Mac</h3></div>
+                <div class="desc">
+                    <p>
+                        <span>Web Developer</span>
+                       
+                    </p>
+                    <p> Seasoned instructional writter Seasoned instructional writter Seasoned instructional writter
+                        Seasoned instructional writter</p>
+                </div>
+            </div>
+            </div>
+            <div class="actorcard">
+                <div class="actorpic">
+                    <img src="./assets/images/actor7.jpg" alt="Actor's pic">
+                </div>
+                <div class="carddetails">
+                <div class = "name"><h3> Terence Ladche</h3></div>
+                <div class="desc">
+                    <p>
+                        <span>Network Expert</span>
+                       
+                    </p>
+                    <p> Seasoned instructional writter Seasoned instructional writter Seasoned instructional writter
+                        Seasoned instructional writter</p>
+                </div>
+            </div>
+            </div>
+            <div class="actorcard">
+                <div class="actorpic">
+                    <img src="./assets/images/actor4.jpg" alt="Actor's pic">
+                </div>
+                <div class="carddetails">
+                <div class = "name"><h3> Maurice Yoo</h3></div>
+                <div class="desc">
+                    <p>
+                        <span>Software Developer </span>
+                       
+                    </p>
+                    <p> Seasoned instructional writter Seasoned instructional writter Seasoned instructional writter
+                        Seasoned instructional writter</p>
+                </div>
+            </div>
+            </div>
+            <div class="actorcard">
+                <div class="actorpic">
+                    <img src="./assets/images/actor2.jpg" alt="Actor's pic">
+                </div>
+                <div class="carddetails">
+                <div class = "name"><h3> Darwin Ndifor</h3></div>
+                <div class="desc">
+                    <p>
+                        <span>IT Support Specialist</span>
+               
+                    </p>
+                    <p> Seasoned instructional writter Seasoned instructional writter Seasoned instructional writter
+                        Seasoned instructional writter</p>
+                </div>
+            </div>
+            </div>
+            <div class="actorcard">
+                <div class="actorpic">
+                    <img src="./assets/images/actor6.jpg" alt="Actor's pic">
+                </div>
+                <div class="carddetails">
+                <div class = "name"><h3> Nalian Best</h3></div>
+                <div class="desc">
+                    <p>
+                        <span>Cyber Security Expert</span>
+                
+                    </p>
+                    <p> Seasoned instructional writter Seasoned instructional writter Seasoned instructional writter
+                        Seasoned instructional writter</p>
+                </div>
+            </div>
+            </div>
+            <div class="actorcard">
+                <div class="actorpic">
+                    <img src="./assets/images/actor8.jpg" alt="Actor's pic">
+                </div>
+                <div class="carddetails">
+                <div class = "name"><h3> Joyce Ning</h3></div>
+                <div class="desc">
+                    <p>
+                        <span>Graphic Designer</span>
+
+                    </p>
+                    <p> Seasoned instructional writter Seasoned instructional writter Seasoned instructional writter
+                        Seasoned instructional writter</p>
+                </div>
+            </div>
+            </div>
+
+            
+            </div>
+
+        </section>
+
+        <section class="sponsors">
+            <div class ="sponsor">
+                <div class="more">
+                    <p>OUR PARTNERS</p>
+                </div>
+                <div class="underlineabt"><p></p></div>
+                <div>
+                  <ul>
+                    <li><img src="./assets/images/google.svg" alt=""></li>
+                    <li><img src="./assets/images/oracle.svg" alt=""></li>
+                    <li><img src="./assets/images/microsoft.svg" alt=""></li>
+                    <li><img src="./assets/images/firefox.svg" alt=""></li>
+                    <li><img src="./assets/images/damko.svg" alt=""></li>
+                </ul>  
+                </div>
+            </div>
+        </section>
+      </main>
+    
+      <footer>
+        <div class="log"><img src="./assets/images/logimg.png" alt="ntechlogo"></div>
+        <div>
+        <div class="footpara"><p>&copy; 2023 ETS.NTECH. All rights reserved.</p></div>
+        <p><span> are always ready to serve you in building projects, consultancy
+            or receiving students <br>for internship. If you are looking for an IT company to meet your demands, then we are for you.
+        </span></p>
+    </div>  
     </footer>
- 
-
-  <script src="./app.js"></script>
 </body>
 </html>
